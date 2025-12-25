@@ -1,0 +1,13 @@
+{
+	"name": "DSnake",
+	"targetPath": "bin",
+	"targetName": "snake",
+	"sourcePaths": ["src"],
+	"importPaths": ["src"],
+	"license": "proprietary",
+	"dependencies": {
+		"bindbc-sdl": "~>1.5",
+		"delta_time": "~>1.0.5"
+	},
+	"versions": ["SDL_2_30"]
+}
