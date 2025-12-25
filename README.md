@@ -24,8 +24,7 @@ You could as well just get precompiled DLLs in SDL2 releases.
 
 If you are not using MSYS2, you'd also like to get the DLLs and put them into bin/.
 
-Though, if you are using MSYS2 then:
-Install following packages:
+Though, if you are using MSYS2 then install following packages:
 - `pacman -S mingw-w64-ucrt-x86_64-SDL2`
 - `pacman -S mingw-w64-ucrt-x86_64-SDL2_image`
 - `pacman -S mingw-w64-ucrt-x86_64-SDL2_mixer`
