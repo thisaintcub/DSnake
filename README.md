@@ -8,7 +8,7 @@ An overly complicated snake made in D programming language using bindbc-sdl libr
 
 ## Compilation
 
-NOTE: I use MSYS2 with make and dub to build the game. MSYS2 and make are not necessary but run the commands I need and makes it a little easier to compile. The project uses the latest SDL2 DLLs available from UCRT64 packages.
+NOTE: I use MSYS2 with make and dub to build the game. MSYS2 and make are not necessary but run the commands I need and make it a little easier to compile. The project uses the latest SDL2 DLLs available from UCRT64 packages.
 
 You could as well just get precompiled DLLs in SDL2 releases.
 
