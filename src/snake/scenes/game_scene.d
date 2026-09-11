@@ -11,13 +11,15 @@ import snake.objects.snake;
 
 import snake.scenes.game_over_scene;
 
-class GameScene : Scene {
+class GameScene : Scene
+{
 	double timer = 0;
 
 	Apple apple;
 	Snake snake;
 
-	this(Game game) {
+	this(Game game)
+	{
 		super(game);
 
 		scene_id = "Game";
@@ -29,12 +31,16 @@ class GameScene : Scene {
 		add(apple);
 	}
 
-	~this() { }
+	~this()
+	{
+	}
 
-	override void update(double dt) {
+	override void update(double dt)
+	{
 		super.update(dt);
 
-		if (snake.position[0] == apple.position) {
+		if (snake.position[0] == apple.position)
+		{
 			writeln("[INFO] Ate the apple!");
 			snake.grow();
 			apple.random_pos(&snake);
@@ -44,7 +50,8 @@ class GameScene : Scene {
 			game.switch_scene(new GameOverScene(game));
 	}
 
-	override void render(SDL_Renderer* renderer) {
+	override void render(SDL_Renderer* renderer)
+	{
 		super.render(renderer);
 	}
 }

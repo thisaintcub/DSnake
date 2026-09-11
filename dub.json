@@ -4,7 +4,7 @@
 	"targetName": "snake",
 	"sourcePaths": ["src"],
 	"importPaths": ["src"],
-	"license": "proprietary",
+	"license": "MIT",
 	"dependencies": {
 		"bindbc-sdl": "~>1.5",
 		"delta_time": "~>1.0.5"
