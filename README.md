@@ -3,7 +3,7 @@ An overly complicated snake made in D programming language using bindbc-sdl libr
 
 ## Controls
 - WASD/Arrows to move
-- Enter to select
+- Enter to restart
 - Esc to quit
 
 ## Compilation
